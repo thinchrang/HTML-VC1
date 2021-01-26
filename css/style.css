@@ -12,57 +12,68 @@ body {
     width: 100%;
     height: 100vh;
     padding: 10px;
-    background: rgb(12, 190, 230);
-    /* clip-path: polygon(0 0, 100% 0%, 100% 26%, 0 27%); */
+    background: rgb(6, 7, 7);
+    
 }
 
 ul {
     display: flex;
     justify-content: flex;
     list-style-type: none;
+
 }
 
 
-.header {
-    background-image: url("pnc.jpg");
-    height: 90vh;
+.header .image {
+    height: 99%;
     width: 100%;
-    /* background-position: center; */
-    background-repeat: no-repeat;
-    background-size: cover; 
+    background-size:cover;
     position: relative;
-  }
+    margin-left: 43%;
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container{
+    background-image: url(https://images.unsplash.com/photo-1599870946465-997ef6cd756a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8Y29udGVudCUyMHdyaXRlcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80);
+    background-size:cover ;
+    background-color: rgb(31, 32, 30, 0.8);
+}
 
 .container .header {
     position: absolute;
-    top: 40%;
-    left: 0%;
-    color: rgb(143, 21, 21);
+    left: 10%;
+    color: rgb(253, 247, 247);
     font-size: 30px;
-    text-shadow: greenyellow;
+    text-shadow: rgb(255, 47, 75);
+    height: 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin-top: 10%;
 }
 
 ul li {
     padding: 10px;
-    /* background:pink; */
+   
     
 }
 
 ul li a {
     text-transform: uppercase;
     text-decoration: none;
-    color: #000;
+    color: white;
     /* background:teal; */
 
     
 }
 
 li:hover {
-    background:greenyellow;
+    background:rgb(255, 47, 75);
 }
 
-/* div {
-    margin-left: 20%;
-    padding: 50px;
-    margin-right: 60%;
-} */
