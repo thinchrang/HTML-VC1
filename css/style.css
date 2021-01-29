@@ -312,7 +312,7 @@ img{
     padding: 15px;
     background: rgb(87, 216, 93);
     margin-top: 20px;
-    color: white;
+    color: white+;
     margin-bottom: 20px;
     border-radius: 30px;
     margin-right: 42%;
@@ -387,8 +387,13 @@ img{
         width: 100%;
         display: block;
     }
-
-
+    .col2{
+        display: none;
+    }
+    .map{
+        display: none;
+    }
+    
 
 }
 
